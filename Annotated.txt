@@ -1,0 +1,50 @@
+Annotated Examples
+Example 1 — Frontend
+Commit Message: “Fix navbar alignment in homepage and update CSS styles.”
+Files Changed: home.html, style.css
+Annotation: This commit focuses on layout and styling, both of which are clearly frontend tasks. The changes affect how the application looks, not how it works internally.
+
+Example 2 — Frontend
+Commit Message: “Add responsive grid layout for product page.”
+Files Changed: product.html, grid.css, script.js
+Annotation: The commit introduces responsive design changes that directly affect the user interface. Since it deals with HTML, CSS, and client-side JavaScript, this is classified as frontend.
+
+Example 3 — Backend
+Commit Message: “Optimize SQL query for order retrieval.”
+Files Changed: orders.py, db_queries.sql
+Annotation: The commit improves database interaction and query efficiency. These changes are purely backend since they deal with data retrieval and logic hidden from the user.
+
+Example 4 — Backend
+Commit Message: “Refactor authentication service for better session handling.”
+Files Changed: auth_service.py, models/user.go
+Annotation: Authentication and session management are backend concerns. The files changed are server-side services, confirming the backend label.
+
+Example 5 — Fullstack
+Commit Message: “Add user profile page with backend API integration.”
+Files Changed: profile.html, profile.css, api/profile.py
+Annotation: This commit touches both the frontend (HTML/CSS) and backend (API). Because it spans both layers of the stack, the role is fullstack.
+
+Example 6 — Fullstack
+Commit Message: “Implement dashboard with charts and connect to analytics service.”
+Files Changed: dashboard.js, dashboard.html, analytics_service.py
+Annotation: The commit creates a new user-facing dashboard (frontend) but also hooks it into a backend service. This cross-layer work is a hallmark of fullstack contributions.
+
+Example 7 — Test
+Commit Message: “Add unit tests for payment service edge cases.”
+Files Changed: test_payment.py, test_helpers.py
+Annotation: No production code is changed here — only test files are added. This aligns directly with QA responsibilities, where the focus is validation and coverage.
+
+Example 8 — QA
+Commit Message: “Update Selenium test cases for checkout flow.”
+Files Changed: checkout_test.js, selenium_config.json
+Annotation: This commit modifies automated UI tests, which are used to ensure that the checkout feature behaves correctly. Such test automation is the core of QA work.
+
+Example 9 — Backend
+Commit Message: “Fix bug in API pagination logic.”
+Files Changed: api/orders.py
+Annotation: Pagination logic belongs to backend APIs. Since only the server-side endpoint is modified, this is correctly labeled as backend.
+
+Example 10 — Frontend
+Commit Message: “Improve accessibility with ARIA labels on forms.”
+Files Changed: form.html, accessibility.css
+Annotation: Accessibility improvements involve HTML and CSS markup, which are frontend concerns. The changes enhance usability without affecting backend logic.
