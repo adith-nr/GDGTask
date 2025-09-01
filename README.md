@@ -24,10 +24,10 @@ pip install -r req.txt
 
 Run for EDA and preprocessing
 ```bash
-python eda1.ipynb
+Run eda1.ipynb
 ```
 Run for getting prediction
 ```bash
-python modelling.ipynb
+Run modelling.ipynb
 ```
 
