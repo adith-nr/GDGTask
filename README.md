@@ -21,7 +21,7 @@ Pipeline to follow-
 pip install -r requirements.txt
 ```
 
-Run the 2 jupyter notebooks
+
 Run for EDA and preprocessing
 ```bash
 python eda1.ipynb
