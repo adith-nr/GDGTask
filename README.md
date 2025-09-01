@@ -22,5 +22,12 @@ pip install -r requirements.txt
 ```
 
 Run the 2 jupyter notebooks
-eda1.ipynb-Run for EDA and preprocessing
-modelling.ipynb-Run for prediction
+Run for EDA and preprocessing
+```bash
+python eda1.ipynb
+```
+Run for getting prediction
+```bash
+python modelling.ipynb
+```
+
