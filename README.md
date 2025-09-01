@@ -18,7 +18,7 @@ Evaluation with Accuracy, Precision, Recall, and Macro F1.
 Pipeline to follow-
 
 ```bash
-pip install -r requirements.txt
+pip install -r req.txt
 ```
 
 
