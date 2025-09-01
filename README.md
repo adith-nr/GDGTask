@@ -16,7 +16,10 @@ Random Forest Classifier
 Evaluation with Accuracy, Precision, Recall, and Macro F1.
 
 Pipeline to follow-
+
+```bash
 pip install -r requirements.txt
+```
 
 Run the 2 jupyter notebooks
 eda1.ipynb-Run for EDA and preprocessing
